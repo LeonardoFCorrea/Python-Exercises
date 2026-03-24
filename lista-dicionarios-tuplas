@@ -1,0 +1,18 @@
+lista = ['Item 1', 'Item 3', 'Item 3']
+
+print(lista)
+
+# Dicionários possuem uma chave de identificação e seu valor
+dicionario = {
+    'chave': 'valor',
+    'chave2': 'valor2',
+    'chave3': 'valor3'
+}
+
+print(dicionario)
+
+
+# Tuplas não podem ser alteradas normalmente
+tupla = ('Item 1', 'Item 2', 'Item 3')
+
+print(tupla)
