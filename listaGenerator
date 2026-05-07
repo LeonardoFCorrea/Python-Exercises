@@ -1,0 +1,12 @@
+from sys import getsizeof
+
+
+numeros = [x*2 for x in range(100)]
+print(numeros)  # Imprime a lista de números pares gerada pelo loop for
+print('')
+print(getsizeof(numeros))  # Imprime o tamanho em bytes da lista de números pares
+
+numeros = (x*2 for x in range(100))  # Usando parênteses para criar um gerador
+print(list(numeros))  # Imprime a lista de números pares gerada pelo gerador
+print('')
+print(getsizeof(numeros))  # Imprime o tamanho em bytes da lista de números pares
