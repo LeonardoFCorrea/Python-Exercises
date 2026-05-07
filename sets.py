@@ -1,8 +1,10 @@
 comidas1 = ["Pizza", "Hamburguesa", "Pasta", "Tacos", "Sushi", "Ensalada"]
 comidas2 = ["Sushi", "Ensalada", "Pasta", "Pollo", "Pescado", "Ensalada", "Pizza"]
 
-com1 = set(comidas1)
-com2 = set(comidas2)
+ex2 = {"Sushi", "Ensalada", "Pasta", "Pollo"} # Set criado diretamente
+
+com1 = set(comidas1) # Como transformar lista em Set
+com2 = set(comidas2) # Como transformar lista em Set
 
 
 print("Comidas 1:", com1)
