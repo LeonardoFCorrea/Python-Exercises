@@ -1,0 +1,9 @@
+carros = ["Fusca", "Gol", "Uno", "Palio"]
+
+carrosComG = [carro for carro in carros if 'g' in carro.lower()]  # Cria uma nova lista com carros que contêm a letra 'g' (ignorando maiúsculas/minúsculas)
+
+refrigerantes = ["Coca-Cola", "Pepsi", "Fanta", "Sprite"]
+refrigerantesComP = [refrigerante for refrigerante in refrigerantes if 'p' in refrigerante.lower()]  # Cria uma nova lista com refrigerantes que contêm a letra 'p' (ignorando maiúsculas/minúsculas)
+
+print(carrosComG)  # Imprime a lista de carros que contêm a letra 'g'
+print(refrigerantesComP)  # Imprime a lista de refrigerantes que contêm a letra 'p'
