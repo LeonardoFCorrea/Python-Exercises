@@ -5,7 +5,7 @@ class Cachorro():
 class Gato():
     def emitirSom(self):
         print('Miar!!')
-        
+    
 animais = [Cachorro(), Gato()]
 
 for animal in animais:
