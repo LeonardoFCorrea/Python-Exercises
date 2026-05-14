@@ -24,7 +24,7 @@ except ValueError:
 user_input = input("Digite um número para dividir por 2: ")
 try:
     result = int(user_input) / 2
-except:
+except:  # noqa: E722
     print("Something went wrong.")
 else:
     print(f"O resultado da divisão é: {result}")
