@@ -12,7 +12,8 @@ try:
     numero = int("abc")
 except ValueError:
     print("Não é possível converter a string para um número inteiro.")
-try:    arquivo = open("arquivo_inexistente.txt", "r")
+try:
+    arquivo = open("arquivo_inexistente.txt", "r")
 except FileNotFoundError:
     print("O arquivo não foi encontrado.")
     
