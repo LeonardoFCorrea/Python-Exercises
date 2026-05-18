@@ -1,6 +1,8 @@
 # Python Learning Journey
 
 Welcome to my Python learning repository! This workspace contains various Python scripts and exercises that I've created while learning the fundamentals and advanced concepts of Python programming.
+## Notion:
+- Access my [Notion](https://www.notion.so/Python-Developer-Journey-970ebd23181f41928b9f11ea1b47a339?source=copy_link)
 
 ## Overview
 
