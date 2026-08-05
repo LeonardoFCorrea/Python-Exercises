@@ -9,6 +9,7 @@
 
 carros = input('Digite os nomes dos carros separados por vírgula: ')
 carrosSeparados = carros.split(',')
+print(carrosSeparados)
 carrosSeparados2 = map(lambda x: x.strip(), carrosSeparados)
 carrosFiltrados = filter(lambda x: 'a' in x[0].lower(), carrosSeparados2)
 carrosMapeados = map(lambda x: x.strip(), carrosFiltrados)
